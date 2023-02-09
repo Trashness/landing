@@ -1,0 +1,116 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Condensed';
+
+
+body {
+    
+    font-family: 'Roboto Condensed';
+    margin: 0;
+    padding: 0;
+}
+
+.bodyup {
+    background-color: rgb(255, 255, 255);
+}
+
+.contact {
+
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+ .bodyname {
+
+    max-width: 100%;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin-top: -20px;
+    background-image: url(/fon1.jfif);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%
+}
+
+ .contentname {
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+}
+
+.bodystonks {
+
+    padding-bottom: 30px;
+    text-align: center;
+    background: rgb(65,63,251);
+    background: radial-gradient(circle, rgba(65,63,251,0) 0%, rgba(39, 57, 255, 0.174) 100%);
+
+}
+.nametarif{
+
+    text-align: center;
+    background-color: #cfd9ff;
+    
+}
+
+
+.tarif {
+    text-align: center;
+    background: #f2f2f2;
+    display: -webkit-flex;
+    display: flex;
+ 
+    -webkit-flex: 0 1 330px;
+    flex: 0 1 330px;
+    padding: 2em 3em;
+    margin: 1em;
+    color: #262b38;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    border-spacing: 50px       
+}
+
+.price {
+    background-color: rgba(0, 145, 255, 0.523);
+    border-radius: 50%;
+    width: 50px;
+}
+ 
+.bodyend {
+
+    max-width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-image: url(/fon2.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%
+
+}
+
+.bodyendcontent {
+
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.botton {
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(56, 165, 212); 
+    padding: .7em 1.5em; 
+    outline: none; 
+  } 
+
+  
