@@ -64,8 +64,6 @@ body {
     text-align: center;
     background: #f2f2f2;
     display: -webkit-flex;
-    display: flex;
- 
     -webkit-flex: 0 1 330px;
     flex: 0 1 330px;
     padding: 2em 3em;
@@ -73,8 +71,14 @@ body {
     color: #262b38;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-    border-spacing: 50px       
+    border-spacing: 50px;    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
 }
+
+
 
 .price {
     background-color: rgba(0, 145, 255, 0.523);
@@ -113,4 +117,4 @@ body {
     outline: none; 
   } 
 
-  
+ 
